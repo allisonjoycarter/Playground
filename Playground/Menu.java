@@ -17,6 +17,7 @@ public class Menu {
 
         System.out.println(options);
 
+
     }
     public void delOption(){//remove an option from the menu
         options.remove(2);
@@ -26,6 +27,10 @@ public class Menu {
 
     }
     public void runMenu(){//makes a menu in the UI
+        for(int i = 0; i < options.size(); i++){
+            System.out.println(options(i));
+        }
+
 
     }
     public void changeOption(){//CHALLENGE: change an option from one thing to another
